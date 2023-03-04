@@ -1,2 +1,11 @@
 server:
+    error:
+        include-message: always
+        include-binding-errors: always
     port: 8090
+
+spring:
+  data:
+    mongodb:
+        database: movie_api_db
+        uri: mongodb+srv://markmuhari:4OQEXZoMcw1rtVbd@cluster0.hz09ohy.mongodb.net
